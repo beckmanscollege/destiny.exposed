@@ -1,0 +1,107 @@
+  <div class="module" id="module">
+
+
+
+<head>
+     <title>Destiny exposer!</title>
+     <link rel="stylesheet" type="text/css" href="reset.css">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <meta charset="utf-8">
+     <link rel="icon" type="image/png" sizes="16x16" href="https://cdn.glitch.com/9b3e14f4-0df3-407b-ae6f-522247b9ca04%2Ffargskiftande-spakula-med-ljud-ljus-1.png?v=1617952394884">
+       
+</head>
+
+  
+<body>
+     <content>
+       
+        <div class="landing-page">
+          
+
+
+
+               
+               <div id="buttons">
+                   <div id="more"><a id="button">
+                           <p>Expose my destiny!</p>
+                     
+                       </a></div>
+                 
+          
+                 
+                   <div id="block"></div>
+                 
+      
+            
+               </div> 
+        
+
+            </div>
+
+       
+       
+       <div class="spadom">
+         <div id="wrapper">
+      
+                 <a href="index.html" class="svg" target="_blank">
+                     <object data="Heart.svg" type="image/svg+xml"></object></a>
+             </div>
+             <div id="quote">
+                 <p>
+                     <script type="text/javascript">
+                         //store the quotations in arrays
+                         quotes = [];
+                         quotes[0] = "Later this week, Luna dips into stress-seeking Taurus, bringing a hectic and unsteady pace, try to embrace that if you can…";
+                         quotes[1] = "Your life is unfolding poorly, things will go down in near future…";
+                         quotes[2] = "Your planet of love, beauty and pleasure will develop into a hot mess…";
+                         quotes[3] = "You may feel a sudden streak of failure this week...";
+                         quotes[4] = "Someone is being a total monster today, and yes, it's you...";
+                         quotes[5] = "Single or attached, one thing's for sure, you really should be doing things differently… ";
+                         quotes[6] = "If there's someone you've had your eye on recently but can't seem to find the courage to move forward, don’t find it today either… ";
+                         quotes[7] = "Poor thing, your dependence of others is really shining through…";
+                         quotes[8] = "All the little details of your life seem to add up just wrong today, maybe you should just cancel your plans… ";
+                         quotes[9] = "Ouch, your future is not looking bright…";
+                         quotes[10] = "Single or taken, your best bet is to step away from love for a while…";
+                         quotes[11] = "When you make decisions in the interest of your own career goals, you will not experience any success…";
+                         quotes[12] = "If you're looking for love you’ll have to look quite a while…";
+                         quotes[13] = "If you only knew what tomorrow will bring… I would be worried if I were you…";
+                         quotes[14] = "Forget about making decisions today, it will not go your way…";
+                         quotes[15] = "Spådom 15";
+                     
+                         //calculate a random index number
+                         index = Math.floor(Math.random() * quotes.length);
+                         //display the quotation
+                         document.write("<DL>\n");
+                         document.write("<DT>" + "" + quotes[index] + "</DT>\n");
+                         document.write("</DL>\n");
+                         //done 
+                     </script></p><dl>
+
+                 <p></p>
+
+
+             </div>
+               
+             
+  
+            <script>
+               document.querySelector('#button').addEventListener('click', function(){
+                 document.body.classList.add('visa-spadom');
+               });
+               
+               
+               const el = document.querySelector("#module");
+
+el.addEventListener("mousemove", (e) => {
+  el.style.setProperty('--x', -e.offsetX / 50 + "px");
+  el.style.setProperty('--y', -e.offsetY / 50 + "px");
+});
+               
+               </script>
+         </div>
+
+     </content>
+    
+ 
+
+ </body>
